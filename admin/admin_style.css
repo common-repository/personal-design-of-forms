@@ -1,0 +1,182 @@
+.custom-form .button, 
+.custom-form .button-primary, 
+.custom-form .button-secondary, 
+.solass-wp-settings .button, 
+.solass-wp-settings .button-primary, 
+.solass-wp-settings .button-secondary {
+  padding: 10px 25px;
+  font-size: 15px;
+/*  display: inline-block;
+  text-decoration: none;
+  line-height: 2.15384615;
+  min-height: 30px;
+  margin: 0;
+  cursor: pointer;
+  border-width: 1px;
+  border-style: solid;
+  -webkit-appearance: none;
+  border-radius: 3px;
+  white-space: nowrap;
+  box-sizing: border-box; */
+}
+
+/* Стили выбора цвета */
+.custom-form .wp-picker-input-wrap, .custom-form .wp-picker-holder { position: absolute; z-index: 10; } 
+
+.align-right { text-align: right !important; } 
+
+
+/* --------------- Стилі поінта підказки --------------------- */
+
+.swp-hint * {
+--swp-tooltip-sp: 10px;
+--swp-tooltip-width: 450px;
+--swp-option-border-color-darker-10: rgba(16, 16, 16, .1) ;
+--swp-option-border-radius: 4px;
+--swp-option-box-shadow: 0 2px 4px rgba(0, 0, 0, .035);
+--swp-body-color: #3C434B;
+--swp-brd-radius: 5px;
+}
+
+.swp-hint:hover {
+--swp-hint-color: #ccc;
+--swp-hint-text-color: #ccc;
+/*--swp-hint-background: #CCC;*/
+}
+.swp-hint {
+--swp-hint-color: #A0A0A0;
+--swp-hint-text-color: #A0A0A0;
+--swp-hint-background: #fff;
+/*--swp-hint-color: #A0A0A0;*/
+  position: relative;
+  z-index: 100;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 16px;
+  height: 16px;
+  border: 1px solid var(--swp-hint-color);
+  border-radius: 50%;
+  background-color: var(--swp-hint-background);
+  vertical-align: middle;
+  cursor: help;
+  transition: all .2s ease;
+}
+.swp-hint::before {
+  content: "?";
+  color: var(--swp-hint-text-color);
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 1;
+  transition: inherit;
+}
+.swp-hint {
+  cursor: help;
+  --swp-hint-color: #A0A0A0;
+}
+.swp-tooltip.swp-top {
+  bottom: calc(100% + var(--swp-tooltip-sp));
+  inset-inline-start: -10px;
+}
+.swp-tooltip {
+  position: absolute;
+  z-index: 400;
+  visibility: hidden;
+  padding: 12px;
+  width: var(--swp-tooltip-width);
+  border: 1px solid var(--swp-option-border-color-darker-10);
+  border-radius: var(--swp-option-border-radius);
+  background-color: #FFF;
+  box-shadow: var(--swp-option-box-shadow);
+  color: var(--swp-body-color);
+  white-space: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1.4;
+  opacity: 0;
+  cursor: auto;
+  transition: all .2s ease;
+}
+:is(label, span, div, a):hover > .swp-tooltip {
+  visibility: visible;
+  opacity: 1;
+}
+.swp-hint:hover {
+  --swp-hint-color: #CCC;
+}
+.swp-theme-style .swp-hint img {
+  min-height: 150px;
+  width: 100%;
+}
+.swp-tooltip.swp-top::before {
+  top: 100%;
+  inset-inline-start: 0;
+  width: 100%;
+  height: var(--swp-tooltip-sp);
+}
+.swp-tooltip::before {
+  content: "";
+  position: absolute;
+}
+.swp-tooltip :is(img, video) {
+  display: block;
+  margin: 0 auto;
+  border-radius: var(--swp-option-border-radius);
+  image-rendering: -webkit-optimize-contrast;
+}
+:where(.swp-theme-style) img {
+  max-width: 100%;
+  height: auto;
+  vertical-align: middle;
+}
+img {
+  border: none;
+}
+iframe, img {
+  border: 0;
+}
+:where(.swp-theme-style) * {
+  box-sizing: border-box;
+}
+
+:where(.swp-theme-style) img {
+  max-width: 100%;
+  height: auto;
+  vertical-align: middle;
+}
+
+.swp-tooltip-inner::before {
+  content: "";
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: var(--swp-brd-radius);
+  background-color: rgba(255,255,255,0.8);
+}
+.swp-tooltip-inner::before, .swp-tooltip-inner::after {
+  position: absolute;
+  z-index: 400;
+  visibility: hidden;
+  opacity: 0;
+}
+.swp-tooltip-inner::after {
+  top: calc(50% - 18px);
+  right: calc(50% - 18px);
+  content: "";
+  display: inline-block;
+  width: 36px;
+  height: 36px;
+  border: 1px solid rgba(255,255,255,0.15);
+    border-left-color: rgba(255, 255, 255, 0.15);
+  border-left-color: #000;
+  border-radius: 50%;
+  vertical-align: middle;
+}
+.swp-tooltip-inner::before, .swp-tooltip-inner::after {
+  position: absolute;
+  z-index: 400;
+  visibility: hidden;
+  opacity: 0;
+}
+

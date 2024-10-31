@@ -1,0 +1,125 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Персональний дизайн форм\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-03-18 16:17+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: \n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.6.3; wp-6.1.1\n"
+"X-Domain: custom-form"
+
+#. Author of the plugin
+msgid "Design Studio SOLASS"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "https://solass.com.ua/"
+msgstr ""
+
+#. URI of the plugin
+msgid "https://solass.com.ua/custom-form/"
+msgstr ""
+
+#. Name of the plugin
+msgid "SOLASS Personal design of forms"
+msgstr ""
+
+#: admin/admin-page.php:76
+msgid "TAK"
+msgstr ""
+
+#: admin/admin-page.php:85
+msgid ""
+"Вкажіть CSS-класи випадаючої форми для якої потрібно включити інивідуальне "
+"оформлення."
+msgstr ""
+
+#: admin/admin-page.php:121
+msgid ""
+"Вказаний вами перелік класів буде назначений для сформованої/трансформованої "
+"випадаючої форми. В подальшому ви зможете керувати та налаштовувати "
+"зовнішній вигляд форми за допомогою цих класів."
+msgstr ""
+
+#: admin/admin-page.php:74
+msgid "Включити персональні стилі"
+msgstr ""
+
+#: admin/admin-page.php:79
+msgid "Включити тільки для CLASSу"
+msgstr ""
+
+#: admin/admin-page.php:104
+msgid "Відступи - padding:"
+msgstr ""
+
+#. Заголовок страницы
+#: admin/admin-page.php:28 admin/admin-page.php:34 admin/admin-page.php:39
+msgid "Дизайн форм"
+msgstr ""
+
+#: admin/admin-page.php:98
+msgid "Колір окантовки:"
+msgstr ""
+
+#: admin/admin-page.php:112
+msgid "Колір тексту при наведенні:"
+msgstr ""
+
+#: admin/admin-page.php:108
+msgid "Колір тексту:"
+msgstr ""
+
+#: admin/admin-page.php:110
+msgid "Колір фону активного меню:"
+msgstr ""
+
+#: admin/admin-page.php:114
+msgid "Колір фону при наведенні:"
+msgstr ""
+
+#: admin/admin-page.php:96
+msgid "Колір фону:"
+msgstr ""
+
+#: custom-form.php:91
+msgid "Налаштування"
+msgstr ""
+
+#: admin/admin-page.php:93
+msgid "Налаштування випадаючої форми (SELECT)"
+msgstr ""
+
+#: admin/admin-page.php:27 admin/admin-page.php:34 admin/admin-page.php:38
+msgid "Параметри дизайну форм вводу"
+msgstr ""
+
+#: admin/admin-page.php:118
+msgid "Перелік классів для форми:"
+msgstr ""
+
+#: admin/admin-page.php:100
+msgid "Розмір окантовки:"
+msgstr ""
+
+#: admin/admin-page.php:123
+msgid "Стилі елементів форми:"
+msgstr ""
+
+#. Description of the plugin
+msgid "Цей плагін замінює стандартні поля вибору на власно оформлені."
+msgstr ""
+
+#: admin/admin-page.php:86
+msgid ""
+"Якщо форму залишити пустою то індивідуальне оформленння буде використане для "
+"всіх випадаючих форм."
+msgstr ""
